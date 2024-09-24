@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Music Player</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+
+  <h1>Music Player</h1>
+
+  <div id="inputContainer">
+     <input id="playlistInput" type="text" placeholder="Enter YouTube Playlist URL" />
+     <button id="loadPlaylist">🎵 Load Playlist</button>
+  </div>
+
+  <!-- YouTube Player Container -->
+  <div id="player-wrapper">
+    <div id="player-container">
+      <div id="player"></div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <div id="controls">
+    <button id="togglePlayStopButton" class="button-modern">Play</button>
+    <button id="skipButton" class="button-modern">Skip</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
